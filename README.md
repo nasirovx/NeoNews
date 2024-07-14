@@ -74,9 +74,17 @@ Installation
    Access the API at http://localhost:8000/api/.
    Access Swagger UI for API documentation at http://localhost:8000/swagger/.
 ## 🗂️ API Endpoints
-   ## News
-      GET /api/news/ - List all news articles
-      POST /api/news/ - Create a new news article
-      GET /api/news/<id>/ - Retrieve a specific news article
-      PUT /api/news/<id>/ - Update a specific news article
-      DELETE /api/news/<id>/ - Delete a specific news article
+## News
+   GET /api/news/ - List all news articles
+   POST /api/news/ - Create a new news article
+   GET /api/news/<id>/ - Retrieve a specific news article
+   PUT /api/news/<id>/ - Update a specific news article
+   DELETE /api/news/<id>/ - Delete a specific news article
+
+## Authentication
+POST /api/token/ - Obtain JWT token
+POST /api/token/refresh/ - Refresh JWT token
+## Favorites
+GET /api/favorites/ - List all favorite news articles
+POST /api/favorites/ - Add a news article to favorites
+DELETE /api/favorites/<id>/ - Remove a news article from favorites
