@@ -10,49 +10,49 @@ Docker: Containerized application for easy deployment.
 
 ## 📁 Project Structure
 
-neonews/
-├── main/
-│   ├── __pycache__/
-│   ├── migrations/
-│   ├── templates/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   ├── views.py
-├── neonews/
-│   ├── __pycache__/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-├── news/
-│   ├── __pycache__/
-│   ├── migrations/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── tests.py
-│   ├── urls.py
-│   ├── views.py
-├── news_images/
-├── venv/
-│   ├── Include/
-│   ├── Lib/
-│   ├── Scripts/
-│   ├── pyvenv.cfg
-├── .dockerignore
-├── db.sqlite3
-├── Dockerfile
-├── manage.py
-├── requirements.txt
-├── rundocker.sh
-├── runsite.sh
+   neonews/
+   ├── main/
+   │   ├── __pycache__/
+   │   ├── migrations/
+   │   ├── templates/
+   │   ├── __init__.py
+   │   ├── admin.py
+   │   ├── apps.py
+   │   ├── models.py
+   │   ├── tests.py
+   │   ├── urls.py
+   │   ├── views.py
+   ├── neonews/
+   │   ├── __pycache__/
+   │   ├── __init__.py
+   │   ├── asgi.py
+   │   ├── settings.py
+   │   ├── urls.py
+   │   ├── wsgi.py
+   ├── news/
+   │   ├── __pycache__/
+   │   ├── migrations/
+   │   ├── __init__.py
+   │   ├── admin.py
+   │   ├── apps.py
+   │   ├── models.py
+   │   ├── serializers.py
+   │   ├── tests.py
+   │   ├── urls.py
+   │   ├── views.py
+   ├── news_images/
+   ├── venv/
+   │   ├── Include/
+   │   ├── Lib/
+   │   ├── Scripts/
+   │   ├── pyvenv.cfg
+   ├── .dockerignore
+   ├── db.sqlite3
+   ├── Dockerfile
+   ├── manage.py
+   ├── requirements.txt
+   ├── rundocker.sh
+   ├── runsite.sh
 
 ## 🛠️ Setup and Installation
 Prerequisites
@@ -88,3 +88,9 @@ POST /api/token/refresh/ - Refresh JWT token
 GET /api/favorites/ - List all favorite news articles
 POST /api/favorites/ - Add a news article to favorites
 DELETE /api/favorites/<id>/ - Remove a news article from favorites
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## ✨ Acknowledgements
+This project was purchased and further developed by nasirovx.
