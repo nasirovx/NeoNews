@@ -9,7 +9,7 @@
 **/.settings
 **/.toolstarget
 **/.vs
-**/.vscode
+**/.vscode 
 **/*.*proj.user
 **/*.dbmdl
 **/*.jfm
