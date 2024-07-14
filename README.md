@@ -60,12 +60,23 @@ Docker
 Docker Compose
 Installation
 1. Clone the repository:
-git clone https://github.com/nasirovx/neonews.git
-cd neonews
+   git clone https://github.com/nasirovx/neonews.git
+   cd neonews
 2. Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 3. Install the dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 4. Run the application with Docker:
-docker-compose up --build
+   docker-compose up --build
+
+## 🧩 Usage
+   Access the API at http://localhost:8000/api/.
+   Access Swagger UI for API documentation at http://localhost:8000/swagger/.
+## 🗂️ API Endpoints
+   ## News
+      GET /api/news/ - List all news articles
+      POST /api/news/ - Create a new news article
+      GET /api/news/<id>/ - Retrieve a specific news article
+      PUT /api/news/<id>/ - Update a specific news article
+      DELETE /api/news/<id>/ - Delete a specific news article
