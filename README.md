@@ -6,7 +6,7 @@ News API: Endpoints for creating, retrieving, updating, and deleting news articl
 Authorization & Authentication: Secure access with JWT.
 Favorites: API endpoints for managing favorite news articles.
 Swagger: API documentation with Swagger UI.
-Docker: Containerized application for easy deployment.
+Docker: Containerized application for easy deployment. 
 
 ## 📁 Project Structure
 
