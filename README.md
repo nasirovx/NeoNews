@@ -3,7 +3,7 @@ NeoNews is a backend project designed to provide APIs for news management, inclu
 
 ## 🚀 Features
 News API: Endpoints for creating, retrieving, updating, and deleting news articles.
-Authorization & Authentication: Secure access with JWT. 
+Authorization & Authentication: Secure access with JWT.  
 Favorites: API endpoints for managing favorite news articles.
 Swagger: API documentation with Swagger UI.
 Docker: Containerized application for easy deployment. 
