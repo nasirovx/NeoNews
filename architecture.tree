@@ -4,7 +4,7 @@ neonews/
 │   ├── migrations/
 │   ├── templates/
 │   ├── __init__.py
-│   ├── admin.py
+│   ├── admin.py 
 │   ├── apps.py
 │   ├── models.py
 │   ├── tests.py
