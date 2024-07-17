@@ -5,7 +5,7 @@ EXPOSE 8000
 ENV PYTHONUNBUFFERED=1
 
 ENV PYTHONDONTWRITEBYTECODE=1
-
+ 
 COPY requirements.txt .
 
 RUN python -m pip install -r requirements.txt
