@@ -8,7 +8,7 @@ Favorites: API endpoints for managing favorite news articles.
 Swagger: API documentation with Swagger UI.
 Docker: Containerized application for easy deployment. 
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
    neonews/
    ├── main/
