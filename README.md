@@ -71,7 +71,7 @@ Installation
    docker-compose up --build
 
 ## 🧩 Usage
-   Access the API at http://localhost:8000/news/.
+   Access the API at http://localhost:8000/news/list/.
    Access Swagger UI for API documentation at http://localhost:8000/swagger/.
 ## 🗂️ API Endpoints
 ## News
@@ -83,7 +83,7 @@ Installation
 POST /token/ - Obtain JWT token
 POST /token/refresh/ - Refresh JWT token
 ## Favorites
-GET //favorites/ - List all favorite news articles
+GET /favorites/ - List all favorite news articles
 POST /favorites/ - Add a news article to favorites
 DELETE /favorites/<id>/ - Remove a news article from favorites
 
